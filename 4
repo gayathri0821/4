@@ -1,0 +1,41 @@
+package ex_siva;
+
+import java.util.Scanner;
+
+public class Ex4{
+	
+	public static void main(String[] args)
+	{
+		System.out.println("enter a string");
+		Scanner sc=new Scanner(System.in);
+		String str=sc.nextLine();
+		for(int startindex=0;startindex<str.length();startindex++)
+		{
+			for(int endindex=str.length()-1;endindex>=0;endindex--)
+			{
+				
+				
+				if(str.charAt(startindex)!=str.charAt(endindex))
+				{
+					
+					System.out.println("string is not palindrome");
+					
+					}
+				else
+				{
+					System.out.println("string is palindrome");
+				
+				}
+					
+			}
+			}
+		}
+		
+	
+	}
+	
+
+	
+
+
+
